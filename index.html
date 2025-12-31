@@ -891,33 +891,67 @@
             <p>
               Completa el formulario y te contactaremos para coordinar fecha y hora. Si prefieres, adapta esta sección para integrarla con tu herramienta de formularios o CRM.
             </p>
-<form action="https://formspree.io/f/xqekrpgr" method="POST">
-  <input type="hidden" name="_subject" value="Nuevo contacto desde NexRise Automation" />
+      <!-- CONTACTO -->
+      <section id="contacto">
+        <h2 class="section-title">Agenda un diagnóstico sin costo</h2>
+        <p class="section-subtitle">
+          Comparte algunos datos de tu operación y coordinamos una sesión donde identificamos juntos los procesos con mayor potencial de automatización.
+        </p>
 
-  <div class="field">
-    <label for="nombre">Nombre completo</label>
-    <input id="nombre" name="nombre" type="text" placeholder="Nombre y apellido" required />
-  </div>
+        <div class="contact">
+          <div class="contact-card">
+            <h3>Cuéntanos sobre tu operación</h3>
+            <p>
+              Completa el formulario y te contactaremos para coordinar fecha y hora. Si prefieres, adapta esta sección para integrarla con tu herramienta de formularios o CRM.
+            </p>
 
-  <div class="field">
-    <label for="empresa">Empresa y sector</label>
-    <input id="empresa" name="empresa" type="text" placeholder="Ej. Empresa XYZ, servicios financieros" required />
-  </div>
+            <!-- Formulario conectado a Formspree -->
+            <form action="https://formspree.io/f/xqekrpgr" method="POST">
+              <input type="hidden" name="_subject" value="Nuevo contacto desde NexRise Automation" />
 
-  <div class="field">
-    <label for="correo">Correo corporativo</label>
-    <input id="correo" name="correo" type="email" placeholder="tucorreo@empresa.com" required />
-  </div>
+              <div class="field">
+                <label for="nombre">Nombre completo</label>
+                <input id="nombre" name="nombre" type="text" placeholder="Nombre y apellido" required />
+              </div>
 
-  <div class="field">
-    <label for="proceso">Proceso que te interesa automatizar</label>
-    <textarea id="proceso" name="proceso" placeholder="Pagos a proveedores, conciliaciones, cuentas por cobrar, onboarding, etc."></textarea>
-  </div>
+              <div class="field">
+                <label for="empresa">Empresa y sector</label>
+                <input id="empresa" name="empresa" type="text" placeholder="Ej. Empresa XYZ, servicios financieros" required />
+              </div>
 
-  <button type="submit" class="btn-primary">
-    Enviar información <span>→</span>
-  </button>
-</form>
+              <div class="field">
+                <label for="correo">Correo corporativo</label>
+                <input id="correo" name="correo" type="email" placeholder="tucorreo@empresa.com" required />
+              </div>
+
+              <div class="field">
+                <label for="proceso">Proceso que te interesa automatizar</label>
+                <textarea id="proceso" name="proceso" placeholder="Pagos a proveedores, conciliaciones, cuentas por cobrar, onboarding, etc."></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary">
+                Enviar información <span>→</span>
+              </button>
+            </form>
+          </div>
+
+          <aside class="contact-aside">
+            <span>Información útil</span>
+            <p>
+              Los proyectos suelen iniciar con un proceso de alto volumen y muchas tareas manuales. Algunos ejemplos:
+            </p>
+            <ul>
+              <li><strong>Pagos y facturas</strong> alto volumen de facturas mensuales y aprobaciones en cadena.</li>
+              <li><strong>Backoffice</strong> actualizaciones repetitivas en múltiples sistemas y reportes diarios.</li>
+              <li><strong>Finanzas</strong> conciliaciones, controles y cruces manuales de información.</li>
+            </ul>
+            <p>
+              Llegamos a empresas en Costa Rica y el resto de LATAM. Si tu organización ya tiene iniciativas de transformación digital en marcha, podemos integrarnos a tu hoja de ruta actual.
+            </p>
+          </aside>
+        </div>
+      </section>
+
 
               <div class="field">
                 <label for="nombre">Nombre completo</label>
@@ -978,4 +1012,5 @@
   </script>
 </body>
 </html>
+
 
