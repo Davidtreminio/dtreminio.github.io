@@ -891,9 +891,34 @@
             <p>
               Completa el formulario y te contactaremos para coordinar fecha y hora. Si prefieres, adapta esta sección para integrarla con tu herramienta de formularios o CRM.
             </p>
+<form action="https://formspree.io/f/xqekrpgr" method="POST">
+  <input type="hidden" name="_subject" value="Nuevo contacto desde NexRise Automation" />
 
-            <!-- Aquí puedes conectar con tu backend o un servicio de formularios como Formspree, Getform, etc. -->
-            <form>
+  <div class="field">
+    <label for="nombre">Nombre completo</label>
+    <input id="nombre" name="nombre" type="text" placeholder="Nombre y apellido" required />
+  </div>
+
+  <div class="field">
+    <label for="empresa">Empresa y sector</label>
+    <input id="empresa" name="empresa" type="text" placeholder="Ej. Empresa XYZ, servicios financieros" required />
+  </div>
+
+  <div class="field">
+    <label for="correo">Correo corporativo</label>
+    <input id="correo" name="correo" type="email" placeholder="tucorreo@empresa.com" required />
+  </div>
+
+  <div class="field">
+    <label for="proceso">Proceso que te interesa automatizar</label>
+    <textarea id="proceso" name="proceso" placeholder="Pagos a proveedores, conciliaciones, cuentas por cobrar, onboarding, etc."></textarea>
+  </div>
+
+  <button type="submit" class="btn-primary">
+    Enviar información <span>→</span>
+  </button>
+</form>
+
               <div class="field">
                 <label for="nombre">Nombre completo</label>
                 <input id="nombre" name="nombre" type="text" placeholder="Nombre y apellido" required />
@@ -953,3 +978,4 @@
   </script>
 </body>
 </html>
+
